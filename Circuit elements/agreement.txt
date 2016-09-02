@@ -1,0 +1,23 @@
+==================
+
+This model set was created by Patrick W. Crawford, aka "TheDuckCow" of Moo-Ack! Productions.
+
+You may do what you like with this set, commercially or otherwise, and you may alter it however you see fit; though you don't have to, I encourage you to credit me (such as "original snail model by Patrick W. Crawford" if you, for example, have changed the model/rig somehow).
+
+==================
+
+
+Pretty much everything is rigged with IK's to make it easy to move the ends  of wires and/or the centers of elements easily, and things like the alligator clips have the proper constraints for rotation of the "mouth".
+
+I've supplied two blends, _LIB circuit elements is the most general file that has all of the parts setup as in the thumbnail render. Note on this file, the front-most (initially on) LED has a driver-controlled material, so the amount of light emitted can be controlled by the armature.
+
+The second blend, Circuits 5-and-Gate, is how you could setup a 5-input and-gate with these circuit elements. In real life the way it would work is if you connect all 5 LED's (the ones int he background) such that they light up, then the front-most LED will also light up; if you disconnect any of the background LED's, the front one will turn off. The node-materials for the LED's in this scene are slightly outdated, so pull models from the other blend for your own projects. Note the chip in that scene would have multiple 2-input and gates, much like the 74AC08, you can check it's datasheet for the setup here: http://www.fairchildsemi.com/ds/74/74AC08.pdf
+
+==================
+
+
+For more of my work, copy the links below:
+
+http://www.facebook.com/TheDuckCow
+http://theduckcow.deviantart.com/
+http://www.youtube.com/user/TheDuckCow
