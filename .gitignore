@@ -79,3 +79,27 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+*.blend1
+*.blend2
+*.blend3
+
+
+
+Unity Shaders/
+Textures/anim/smoke/
+Textures/anim/
+Textures/Urban/dirt/
+Textures/
+Fonts/
+Blender/cat.blend
+Blender/Animation/cat walk330001.png
+Blender/Animation/
+Images/
+FBX/
+Blender/Planes/
+Blender/Materials Blender Render/
+Sounds/
+Terrain/
+Blender/Buttons/button.blend
+Blender/BlendSwap/
