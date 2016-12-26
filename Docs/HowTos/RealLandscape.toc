@@ -1,0 +1,24 @@
+\select@language {english}
+\contentsline {section}{\numberline {1}Introduction}{2}{section.1}
+\contentsline {section}{\numberline {2}What is Needed?}{3}{section.2}
+\contentsline {subsection}{\numberline {2.1}Minimum Setup}{4}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Minimum Setup with Unity}{4}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Ultimate Setup}{4}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Expert Ultimate Setup}{5}{subsection.2.4}
+\contentsline {section}{\numberline {3}Finding the Location}{5}{section.3}
+\contentsline {section}{\numberline {4}Downloading a Low-Resolution Terrain}{6}{section.4}
+\contentsline {section}{\numberline {5}Data About the Heightmap}{7}{section.5}
+\contentsline {section}{\numberline {6}Creating a Terrain in Unreal Engine 4}{8}{section.6}
+\contentsline {subsection}{\numberline {6.1}Reset the Layout}{8}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Import the Terrain}{9}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Adjust the Terrain}{9}{subsection.6.3}
+\contentsline {subsection}{\numberline {6.4}Check your Work}{10}{subsection.6.4}
+\contentsline {subsection}{\numberline {6.5}An Optional Tweak}{10}{subsection.6.5}
+\contentsline {section}{\numberline {7}Move the Unreal 4 Terrain to Unity 5}{11}{section.7}
+\contentsline {subsection}{\numberline {7.1}Create a Raw File from the .png File with Unreal Engine 4}{11}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}Create an empty Unity3d Project}{11}{subsection.7.2}
+\contentsline {subsection}{\numberline {7.3}Create a Terrain}{13}{subsection.7.3}
+\contentsline {subsection}{\numberline {7.4}Check your Work}{13}{subsection.7.4}
+\contentsline {section}{\numberline {8}Expert Topic: Using US GIS Data}{14}{section.8}
+\contentsline {subsection}{\numberline {8.1}Find and Download the File}{15}{subsection.8.1}
+\contentsline {subsection}{\numberline {8.2}Convert the Files to a Usable Image}{15}{subsection.8.2}

@@ -1,0 +1,23 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{What is Needed?}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Minimum Setup}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Minimum Setup with Unity}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.3}{Ultimate Setup}{section.2}% 5
+\BOOKMARK [2][-]{subsection.2.4}{Expert Ultimate Setup}{section.2}% 6
+\BOOKMARK [1][-]{section.3}{Finding the Location}{}% 7
+\BOOKMARK [1][-]{section.4}{Downloading a Low-Resolution Terrain}{}% 8
+\BOOKMARK [1][-]{section.5}{Data About the Heightmap}{}% 9
+\BOOKMARK [1][-]{section.6}{Creating a Terrain in Unreal Engine 4}{}% 10
+\BOOKMARK [2][-]{subsection.6.1}{Reset the Layout}{section.6}% 11
+\BOOKMARK [2][-]{subsection.6.2}{Import the Terrain}{section.6}% 12
+\BOOKMARK [2][-]{subsection.6.3}{Adjust the Terrain}{section.6}% 13
+\BOOKMARK [2][-]{subsection.6.4}{Check your Work}{section.6}% 14
+\BOOKMARK [2][-]{subsection.6.5}{An Optional Tweak}{section.6}% 15
+\BOOKMARK [1][-]{section.7}{Move the Unreal 4 Terrain to Unity 5}{}% 16
+\BOOKMARK [2][-]{subsection.7.1}{Create a Raw File from the .png File with Unreal Engine 4}{section.7}% 17
+\BOOKMARK [2][-]{subsection.7.2}{Create an empty Unity3d Project}{section.7}% 18
+\BOOKMARK [2][-]{subsection.7.3}{Create a Terrain}{section.7}% 19
+\BOOKMARK [2][-]{subsection.7.4}{Check your Work}{section.7}% 20
+\BOOKMARK [1][-]{section.8}{Expert Topic: Using US GIS Data}{}% 21
+\BOOKMARK [2][-]{subsection.8.1}{Find and Download the File}{section.8}% 22
+\BOOKMARK [2][-]{subsection.8.2}{Convert the Files to a Usable Image}{section.8}% 23
