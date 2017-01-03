@@ -1,0 +1,118 @@
+\documentclass[letter,12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{hyperref}
+\usepackage[english]{babel}
+\usepackage{fourier}
+\usepackage[protrusion=true,expansion=true]{microtype}
+\usepackage{amsmath,amsfonts,amsthm}
+\usepackage[pdftex]{graphicx}
+\usepackage{sectsty}								
+\usepackage[svgnames]{xcolor}			
+%\allsectionsfont{\centering \normalfont\scshape}	
+\usepackage{fancyhdr}
+\pagestyle{fancyplain}
+\fancyhead{}	
+\fancyfoot[L]{\small \url{http://toddvance.tech}}		
+\fancyfoot[C]{\includegraphics[width=0.5in]{common/monogram-transparent.png}}											
+\fancyfoot[R]{\thepage}								
+\renewcommand{\headrulewidth}{0pt}			
+\renewcommand{\footrulewidth}{0pt}
+\setlength{\headheight}{13.6pt}
+\newcommand{\horrule}[1]{\rule{\linewidth}{#1}} 	% Horizontal rule
+
+\title{
+		%\vspace{-1in}
+		\includegraphics[width=1.5in]{common/tdv-logo-south-branch-valley-small.png}
+		\usefont{OT1}{bch}{b}{n} 
+		\normalfont 
+		\horrule{0.5pt} \\[0.4cm]
+		\Huge Unreal Engine 4 Notes\\ %%%%%%%%%%%%%% TITLE %%%%%%%%%%%%%%%
+		\color{DarkGreen}
+		\large How To\\[0.2cm]%%%%%%%%%%%%%%ARTICLE TYPE %%%%%%%%%%%%%%%
+		\color{Blue}
+		\small \textsc{Udemy “Learning To Code By Making Games in Unreal 4” course}\\%%%%%%%%%%%%%% TAG LINE %%%%%%%%%%%%%%%
+		\color{Black}
+		\horrule{2pt} \\[0.5cm]
+}
+\author{
+		\normalfont \normalsize
+       \copyright{2017 Todd D. Vance, Deplorable Mountaineer}%%%%%%%%%%%%%% COPYRIGHT %%%%%%%%%%%%%%%
+        \tiny\\
+\tiny        Permission is hereby granted, free of charge, to any person obtaining a copy\\[-0.3cm]
+\tiny        of this software and associated documentation files (the "Software"), to deal\\[-0.3cm] 
+\tiny        in the Software without restriction, including without limitation the rights to\\[-0.3cm]
+\tiny         use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies\\[-0.3cm] 
+\tiny         of the Software, and to permit persons to whom the Software is furnished to\\[-0.3cm]
+\tiny         do so, subject to the following conditions:\\[-0.3cm]
+\tiny         \\[-0.3cm]
+\tiny	The above copyright notice and this permission notice shall be included in all\\[-0.3cm]
+\tiny	copies or substantial portions of the Software.\\[-0.3cm]
+\tiny	\\[-0.3cm]
+\tiny	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,\\[-0.3cm]
+\tiny	EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES\\[-0.3cm] 
+\tiny	OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\\[-0.3cm]
+\tiny	NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT\\[-0.3cm]
+\tiny	HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,\\[-0.3cm]
+\tiny	WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\\[-0.3cm]
+\tiny	FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE\\[-0.3cm]
+\tiny   OR OTHER DEALINGS IN THE SOFTWARE.
+}
+\date{\today}
+
+\newtheorem{exercise}{Exercise}
+
+\begin{document}
+\maketitle{}
+\tableofcontents{}
+
+%%%%%%%%%%%%%% BEGIN DOCUMENT %%%%%%%%%%%%%%%
+
+\section{Introduction}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis risus ante, auctor et pulvinar non, posuere ac lacus. Praesent egestas nisi id metus rhoncus ac lobortis sem hendrerit. Etiam et sapien eget lectus interdum posuere sit amet ac urna. Aliquam pellentesque imperdiet erat, eget consectetur felis malesuada quis. Pellentesque sollicitudin, odio sed dapibus eleifend, magna sem luctus turpis, id aliquam felis dolor eu diam. Etiam ullamcorper, nunc a accumsan adipiscing, turpis odio bibendum erat, id convallis magna eros nec metus. Sed vel ligula justo, sit amet vestibulum dolor. Sed vitae augue sit amet magna ullamcorper suscipit. Quisque dictum ipsum a sapien egestas facilisis.   See Figure \ref{fig:logo1}.
+
+\begin{figure}
+  \includegraphics[width=2in]{common/tdv-logo-south-branch-valley-small.png}
+  \caption{Hypercube projected into the South Branch Valley}
+  \label{fig:logo1}
+\end{figure}
+
+
+\section{Unreal Notes}
+\begin{enumerate}
+\item .gitignore:
+
+\begin{verbatim}
+**/*.VC.db
+**/*.opensdf
+**/*.opendb
+**/*.sdf
+**/*.sln
+**/*.suo
+**/*.xcodeproj
+**/*.xcworkspace
+**/Build
+**/Binaries
+**/ DerivedDataCache
+**/Intermediate
+**/Saved
+**/StarterContent/
+\end{verbatim}
+
+\item
+
+\end{enumerate}
+
+
+
+
+
+
+
+
+
+
+
+\end{document}

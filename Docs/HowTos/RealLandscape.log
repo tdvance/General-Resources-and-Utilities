@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.8.13)  26 DEC 2016 17:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.8.13)  30 DEC 2016 22:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1174,14 +1174,13 @@ LaTeX Font Info:    Font shape `U/futm/m/n' will be
 \openout4 = `RealLandscape.toc'.
 
 
-<RealLandscape/tdv-logo-south-branch-valley-huge.png, id=132, 2569.6pt x 1405.2
-5pt>
-File: RealLandscape/tdv-logo-south-branch-valley-huge.png Graphic file (type pn
-g)
- <use RealLandscape/tdv-logo-south-branch-valley-huge.png>
-Package pdftex.def Info: RealLandscape/tdv-logo-south-branch-valley-huge.png us
-ed on input line 73.
-(pdftex.def)             Requested size: 433.62pt x 237.13106pt.
+<common/tdv-logo-sbv-deplorable-huge.png, id=132, 3436.58907pt x 2037.11063pt>
+File: common/tdv-logo-sbv-deplorable-huge.png Graphic file (type png)
+
+<use common/tdv-logo-sbv-deplorable-huge.png>
+Package pdftex.def Info: common/tdv-logo-sbv-deplorable-huge.png used on input 
+line 73.
+(pdftex.def)             Requested size: 433.62pt x 257.03165pt.
 
 Overfull \hbox (43.62pt too wide) in paragraph at lines 73--74
 [][] 
@@ -1196,61 +1195,68 @@ Package pdftex.def Info: Common/monogram-transparent.png used on input line 79.
 File: Common/monogram-transparent.png Graphic file (type png)
 
 <use Common/monogram-transparent.png>
-Package pdftex.def Info: Common/monogram-transparent.png used on input line 88.
+Package pdftex.def Info: Common/monogram-transparent.png used on input line 79.
 
 (pdftex.def)             Requested size: 36.135pt x 20.31265pt.
- [3 <./RealLandscape/tdv-logo-south-branch-valley-huge.png>]
+ [3 <./common/tdv-logo-sbv-deplorable-huge.png>]
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 92.
 File: Common/monogram-transparent.png Graphic file (type png)
  <use Common/monogram-transparent.png>
-Package pdftex.def Info: Common/monogram-transparent.png used on input line 116
+Package pdftex.def Info: Common/monogram-transparent.png used on input line 101
 .
 (pdftex.def)             Requested size: 36.135pt x 20.31265pt.
  [4]
 File: Common/monogram-transparent.png Graphic file (type png)
 
 <use Common/monogram-transparent.png>
-Package pdftex.def Info: Common/monogram-transparent.png used on input line 143
+Package pdftex.def Info: Common/monogram-transparent.png used on input line 132
 .
 (pdftex.def)             Requested size: 36.135pt x 20.31265pt.
  [5]
 File: Common/monogram-transparent.png Graphic file (type png)
 
 <use Common/monogram-transparent.png>
-Package pdftex.def Info: Common/monogram-transparent.png used on input line 166
+Package pdftex.def Info: Common/monogram-transparent.png used on input line 159
 .
 (pdftex.def)             Requested size: 36.135pt x 20.31265pt.
  [6]
 File: Common/monogram-transparent.png Graphic file (type png)
 
 <use Common/monogram-transparent.png>
-Package pdftex.def Info: Common/monogram-transparent.png used on input line 184
+Package pdftex.def Info: Common/monogram-transparent.png used on input line 175
 .
 (pdftex.def)             Requested size: 36.135pt x 20.31265pt.
  [7]
 File: Common/monogram-transparent.png Graphic file (type png)
 
 <use Common/monogram-transparent.png>
-Package pdftex.def Info: Common/monogram-transparent.png used on input line 217
+Package pdftex.def Info: Common/monogram-transparent.png used on input line 212
 .
 (pdftex.def)             Requested size: 36.135pt x 20.31265pt.
  [8]
 File: Common/monogram-transparent.png Graphic file (type png)
 
 <use Common/monogram-transparent.png>
-Package pdftex.def Info: Common/monogram-transparent.png used on input line 235
+Package pdftex.def Info: Common/monogram-transparent.png used on input line 230
 .
 (pdftex.def)             Requested size: 36.135pt x 20.31265pt.
  [9]
 File: Common/monogram-transparent.png Graphic file (type png)
 
 <use Common/monogram-transparent.png>
-Package pdftex.def Info: Common/monogram-transparent.png used on input line 258
+Package pdftex.def Info: Common/monogram-transparent.png used on input line 246
 .
 (pdftex.def)             Requested size: 36.135pt x 20.31265pt.
  [10]
-<RealLandscape/projects.png, id=195, 753.81625pt x 434.62375pt>
+File: Common/monogram-transparent.png Graphic file (type png)
+
+<use Common/monogram-transparent.png>
+Package pdftex.def Info: Common/monogram-transparent.png used on input line 267
+.
+(pdftex.def)             Requested size: 36.135pt x 20.31265pt.
+ [11]
+<RealLandscape/projects.png, id=200, 753.81625pt x 434.62375pt>
 File: RealLandscape/projects.png Graphic file (type png)
 
 <use RealLandscape/projects.png>
@@ -1263,28 +1269,21 @@ Overfull \hbox (43.62pt too wide) in paragraph at lines 273--274
 
 File: Common/monogram-transparent.png Graphic file (type png)
 <use Common/monogram-transparent.png>
-Package pdftex.def Info: Common/monogram-transparent.png used on input line 282
-.
-(pdftex.def)             Requested size: 36.135pt x 20.31265pt.
- [11]
-File: Common/monogram-transparent.png Graphic file (type png)
-
-<use Common/monogram-transparent.png>
-Package pdftex.def Info: Common/monogram-transparent.png used on input line 282
+Package pdftex.def Info: Common/monogram-transparent.png used on input line 281
 .
 (pdftex.def)             Requested size: 36.135pt x 20.31265pt.
  [12 <./RealLandscape/projects.png>]
 File: Common/monogram-transparent.png Graphic file (type png)
 
 <use Common/monogram-transparent.png>
-Package pdftex.def Info: Common/monogram-transparent.png used on input line 303
+Package pdftex.def Info: Common/monogram-transparent.png used on input line 302
 .
 (pdftex.def)             Requested size: 36.135pt x 20.31265pt.
  [13]
 File: Common/monogram-transparent.png Graphic file (type png)
 
 <use Common/monogram-transparent.png>
-Package pdftex.def Info: Common/monogram-transparent.png used on input line 328
+Package pdftex.def Info: Common/monogram-transparent.png used on input line 327
 .
 (pdftex.def)             Requested size: 36.135pt x 20.31265pt.
  [14]
@@ -1295,7 +1294,7 @@ Overfull \hbox (20.66174pt too wide) in paragraph at lines 330--333
 
 File: Common/monogram-transparent.png Graphic file (type png)
 <use Common/monogram-transparent.png>
-Package pdftex.def Info: Common/monogram-transparent.png used on input line 353
+Package pdftex.def Info: Common/monogram-transparent.png used on input line 350
 .
 (pdftex.def)             Requested size: 36.135pt x 20.31265pt.
  [15]
@@ -1316,20 +1315,20 @@ Package rerunfilecheck Info: File `RealLandscape.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 360.
  ) 
 Here is how much of TeX's memory you used:
- 10217 strings out of 493013
- 148395 string characters out of 6137008
+ 10218 strings out of 493013
+ 148349 string characters out of 6137008
  274565 words of memory out of 5000000
  13314 multiletter control sequences out of 15000+600000
  123284 words of font info for 252 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,14n,44p,1192b,517s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,14n,44p,1192b,494s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{c:/texlive/2016/tex
 mf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2016/texmf-dist/fonts/type1/pub
 lic/fourier/fourier-ms.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/lm/lm
 tt10.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/lm/lmtt12.pfb><c:/texli
 ve/2016/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb><c:/texlive/2016/texmf-d
 ist/fonts/type1/adobe/utopia/putr8a.pfb>
-Output written on RealLandscape.pdf (16 pages, 5677782 bytes).
+Output written on RealLandscape.pdf (16 pages, 24058066 bytes).
 PDF statistics:
  278 PDF objects out of 1000 (max. 8388607)
  244 compressed objects within 3 object streams
