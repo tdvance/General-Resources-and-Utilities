@@ -79,6 +79,61 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis risus ante, auctor
   \label{fig:logo1}
 \end{figure}
 
+\section{Various Models of Three Dimensional Space}
+All models of three-dimensional space model a point as three real numbers, usually called $x$, $y$, and $z$.  What differs is which direction is the $x$ axis, the $y$ axis, and the $z$ axis.  
+
+Let us use something easy to imagine, a humanoid character (e.g. a Ken doll). The doll has a definite forward direction (the direction he faces, or the direction his eyes are looking), backward direction (the opposite of the forward direction), left and right (he has a definite left hand and right hand), and up (the direction of his head) and down (the direction of his feet).  These of course are relative to the doll, that is taking Ken to be the origin.    If you don’t have a Ken or Barbie doll or some kind of “action figure”, say a Duke Nukem action figure, a book will also work, with the  forward direction being out the front cover, backward out the back cover, downward the direction lines of text are read, upward the opposite direction, rightward the direction characters of text in a line are read, and leftward the opposite direction.  Again, these are directions relative to the book itself.  If you rotate the book or doll, the absolute directions change.
+
+
+So, let us imagine a space, and at the origin is a Ken doll (or book, but for simplicity, I shall stick with the Ken doll).  This Ken doll defines the absolute directions of the space (so we assume that this doll is an immovable object).  Now, which direction is the $x$ axis? It depends on which model you use.  
+
+
+\subsection{Blender Model}
+
+In the Blender model, the positive $y$ axis is forward.  So Ken is looking along the $y$ axis, and the further you move forward from Ken, the larger the $y$ coordinate gets.  The negative $y$ axis then is backward.
+
+The positive $x$ axis is to Ken’s right.  Therefore, the negative $x$ axis is to Ken’s left.
+
+Finally, the positive $z$ axis is up.  The negative $z$ axis is down.
+
+Note that Blender is using a right-handed coordinate system.  That means this: make a fist with a “thumbs up” gesture with the right hand.  Let the thumb point toward positive $z$ (up, in this case) The fingers curl around to make a circle that if followed, intersects the four rays in this order: positive $x$, positive $y$, negative $x$, negative $y$.   This is only true for the right hand: thumb is positive $z$, then positive $x$ is right before positive $y$.  If you used the left hand instead, with thumb up for positive $z$, positive $y$ would be before positive $x$.  Thus this is not a left-handed coordinate system, but a right-handed coordinate system: right-hand fingers from $x$ to $y$, thumb to $z$, all positive directions.
+
+The Blender model is a commonly-used model by mathematicians.  It has the advantage that it is a right-handed model and most mathematical definitions are geared toward right-handed models.
+
+
+\subsection{Unity Model}
+
+In the Unity model, the positive $z$ axis is forward.  So Ken is looking along the $z$ axis, and the further you move forward from Ken, the larger the $z$ coordinate gets.  The negative $z$ axis then is backward.
+
+The positive $x$ axis is to Ken’s right.  Therefore, the negative $x$ axis is to Ken’s left.
+
+Finally, the positive $y$ axis is up.  The negative $y$ axis is down.
+
+Note that Unity is using a left-handed coordinate system.  That means this: make a fist with a “thumbs up” gesture with the left hand.  Let the thumb point toward positive $z$ (forward, in this case) The fingers curl around to make a counterclockwise circle that if followed, intersects the four rays in this order: positive $x$, positive $y$, negative $x$, negative $y$.   This is only true for the left hand: thumb is positive $z$, then positive $x$ is right before positive $y$.  If you used the right hand instead, with thumb up for positive $z$, positive $y$ would be before positive $x$.  Thus this is not a right-handed coordinate system, but a left-handed coordinate system: left-hand fingers from $x$ to $y$, thumb to $z$, all positive directions.
+
+The Unity model is commonly used by graphics cards internally, and therefore, shader languages.  In addition to this advantage, it has the advantage that, when switching to 2D, $x$ and $y$ stay the same.
+
+
+\subsection{Unreal Model}
+
+In the Unreal Engine 4 model, the positive $x$ axis is forward.  So Ken is looking along the $x$ axis, and the further you move forward from Ken, the larger the $x$ coordinate gets.  The negative $x$ axis then is backward.
+
+The positive $y$ axis is to Ken’s right.  Therefore, the negative $y$ axis is to Ken’s left.
+
+Finally, the positive $z$ axis is up.  The negative $z$ axis (like the Enemy Gate of Ender’s Game) is down.
+
+Note that Unreal is using a left-handed coordinate system.  That means this: make a fist with a “thumbs up” gesture with the left hand.  Let the thumb point toward positive $z$ (up, in this case) The fingers curl around to make a circle that if followed, intersects the four rays in this order: positive $x$, positive $y$, negative $x$, negative $y$.   This is only true for the left hand: thumb is positive $z$, then positive $x$ is right before positive $y$.  If you used the right hand instead, with thumb up for positive $z$, positive $y$ would be before positive $x$.  Thus this is not a right-handed coordinate system, but a left-handed coordinate system: left-hand fingers from $x$ to $y$, thumb to $z$, all positive directions.
+
+The Unreal model is a compromise between a mathematician’s model (in which $z$ is up), and one in which $x$ and $y$ axes make some kind of 2D sense (but only if looking down).  
+
+\subsection{3D Coordinate Model Summary}
+So, there are multiple models in common use.  Each has advantages and disadvantages.  It is apparant that a game programmer must be comfortable with switching between one model and the other--even if you choose Unreal or Unity, you still need to use some program like Blender to make the assets.  Luckily, when exporting as FBX from Blender, it’s easy to have it swap from right-handed to left-handed.  That’s the big change.  Beyond that, it’s only a rotation.  
+
+
+\section{Rotations in Three Dimensional Space}
+
+ 
+
 \section{Rotations in Three Dimensional Space}
 
 First of all, we need to decide on a coordinate system for three-dimensional space.  A point is a vector of three numbers, $x$, $y$, and $z$.  In Unity, the $y$ axis points up, the $x$ axis points right, and the $z$ axis points directly into the screen (so you are sitting on the negative $z$ axis, and behind the monitor is the positive $z$ axis).  This is an example of a “left-handed system”, which is used largely because graphics card shader languages use that system.  The reason it is a left-handed system is if you take your left hand and make a fist with the  thumb pointing in the positive $z$ direction (I know, it’s awkward), then the fingers will curl along an arc going from the positive $x$ axis through the positive $y$ axis (that is, counterclockwise).  The main advantage of the left-handed system over the right-handed system is if you throw away the $z$ axis, the $x$ and $y$ are in the normal configuration for the two-dimensional plane.
